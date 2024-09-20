@@ -1,0 +1,27 @@
+
+Lab 04
+
+TPS Activity 1
+1. I expect the program to print the value 2.
+2. I expect it to print out a hexidecimal value.
+3. It did print out a hexidecimal value, it prtined: 44434241
+4. It prints the value 2, I am lost by the result.
+5a. I array is allocated in the program.
+5b. Yes they point to the same location.
+5c. Yes they point to the same place and my code confirms this.
+6. The difference between twon ints is 4. It shows how they addresses are stored in memory.
+7. Did on paper
+8. The difference in the addresses is one, this shows how characters are stored in memory.
+9. Done on the same paper
+10. This shows that C allows us to access the same memory location using different types of pointers.The first element of four_int 
+    was only changed because the character pointer did all of the work inside the first index. This is because 4 characters make 
+    the same size as one integer.
+
+TPS Activity 2
+1. This line dynamically allocates memory for array pointers to in, where it is going to be a 2D array
+2. To access the ith value of the ray it will be done like this: *(arr + i)
+3. Done.
+4. We have to pass the size of the array in order to tell the program when to stop the function.
+5. Done.
+6. Done.
+7. Done.

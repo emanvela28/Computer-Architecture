@@ -1,0 +1,77 @@
+
+TPS 1 Answers:
+1. Done 
+2. Done
+3. Done
+4. li $v0, 5
+   syscall
+   move $t3, $v0
+5. With the program modified to read n as a user input, declaring n in the .data segment becomes unnecessary. Therefore, 
+   both the .data segment declaration of n and the instructions to load n into $t3 (la $t3, n and lw $t3, 0($t3)) should be
+   commented out or removed to avoid confusion and ensure the program uses the value entered by the user.
+6. Done
+
+TPS 2
+1. With input 5, 29 is the output 
+2. Done
+3. Done
+
+    inputPrompt: .asciiz "Please enter an integer: "
+    .text
+
+    main:
+    li $v0, 4                # Syscall for print string
+    la $a0, inputPrompt      # Load address of the input prompt
+    syscall                  # Display prompt
+
+4.  Use register $a0
+    li $v0, 5                # Syscall for read integer
+    syscall                  # Read integer
+    move $a0, $v0            # Move read integer into $a0 for recursion argument
+
+
+5. The returned value will be in $v0. To print it without overwriting, you can use it directly since syscall for printing 
+   integer will use $v0 as the input.
+
+6.  # Assume returned value is in $v0 after jal recursion
+    li $v0, 1                # Syscall for print integer
+    syscall                  # Print returned value
+
+7. When entering recursion, 12 bytes are reserved (3 words) on the stack for local storage. The first thing typically stored is the 
+   return address or any saved registers.
+   
+   recursion:
+   sw $ra, 8($sp)           # Save return address on the stack
+
+8. li $v0, 1                # Set return value to 1
+
+9. li $v0, 3                # Set return value to 3
+
+10. We need to save $a0 into the stack because it will be overwritten by the new argument for the next recursion call. $a0 holds 
+    the current argument which needs to be restored after the recursive call returns.
+
+    sw $a0, 4($sp)           # Save current argument $a0 on the stack
+
+11. # Before first jal recursion
+    addi $a0, $a0, -2        # Prepare m - 2
+    # Retrieve $a0 for the next call, update it to m - 1 later
+
+12. After the first recursive call returns, its result is in $v0. We need to save this result temporarily on the stack to prevent 
+    it from being overwritten.
+
+    sw $v0, 0($sp)           # Save returned value temporarily on the stack
+
+13. lw $a0, 4($sp)           # Restore original $a0 (m)
+    addi $a0, $a0, -1        # Update $a0 to m - 1
+
+14. 
+    lw $t0, 0($sp)           # Load first returned value
+    add $v0, $v0, $t0        # Add second returned value to first
+
+15. It is the return address that we first saved when we first called the recursion function. The value will be $a0
+
+    end_recur:
+    lw $ra, 8($sp)           # Retrieve return address
+
+
+

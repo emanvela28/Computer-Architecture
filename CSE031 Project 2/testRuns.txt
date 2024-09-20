@@ -1,0 +1,98 @@
+Test Run 1:
+Enter the number of assignments (between 1 and 25): 6
+Enter score: 2
+Enter score: 3
+Enter score: 5
+Enter score: 4
+Enter score: 11
+Enter score: 7
+Original scores: 2 3 5 4 11 7 
+Sorted scores (in descending order): 11 7 5 4 3 2 
+Enter the number of (lowest) scores to drop: 4
+Average (rounded down) with dropped scores removed: 9
+-- program is finished running --
+
+
+Test Run 2:
+Enter the number of assignments (between 1 and 25): 10
+Enter score: 1
+Enter score: 2
+Enter score: 3
+Enter score: 4
+Enter score: 5
+Enter score: 6
+Enter score: 7
+Enter score: 8
+Enter score: 9
+Enter score: 10
+Original scores: 1 2 3 4 5 6 7 8 9 10 
+Sorted scores (in descending order): 10 9 8 7 6 5 4 3 2 1 
+Enter the number of (lowest) scores to drop: 1
+Average (rounded down) with dropped scores removed: 6
+-- program is finished running --
+
+
+Test Run 3:
+Enter the number of assignments (between 1 and 25): 5
+Enter score: 10
+Enter score: 14
+Enter score: 23
+Enter score: 55
+Enter score: 67
+Original scores: 10 14 23 55 67 
+Sorted scores (in descending order): 67 55 23 14 10 
+Enter the number of (lowest) scores to drop: 4
+Average (rounded down) with dropped scores removed: 67
+-- program is finished running --
+
+
+Test Run 4:
+Enter the number of assignments (between 1 and 25): 7
+Enter score: 2
+Enter score: 5
+Enter score: 78
+Enter score: 14
+Enter score: 3
+Enter score: 2
+Enter score: 9
+Original scores: 2 5 78 14 3 2 9 
+Sorted scores (in descending order): 78 14 9 5 3 2 2 
+Enter the number of (lowest) scores to drop: 8
+Average (rounded down) with dropped scores removed: 0
+-- program is finished running --
+
+
+Test Run 5:
+Enter the number of assignments (between 1 and 25): 25
+Enter score: 13
+Enter score: 23
+Enter score: 34
+Enter score: 45
+Enter score: 56
+Enter score: 67
+Enter score: 78
+Enter score: 89
+Enter score: 90
+Enter score: 98
+Enter score: 87
+Enter score: 76
+Enter score: 65
+Enter score: 54
+Enter score: 43
+Enter score: 32
+Enter score: 11
+Enter score: 24
+Enter score: 55
+Enter score: 66
+Enter score: 77
+Enter score: 88
+Enter score: 88
+Enter score: 99
+Enter score: 22
+Original scores: 13 23 34 45 56 67 78 89 90 98 87 76 65 54 43 32 11 24 55 66 77 88 88 99 22 
+Sorted scores (in descending order): 99 98 90 89 88 88 87 78 77 76 67 66 65 56 55 54 45 43 34 32 24 23 22 13 11 
+Enter the number of (lowest) scores to drop: 6
+Average (rounded down) with dropped scores removed: 71
+
+
+

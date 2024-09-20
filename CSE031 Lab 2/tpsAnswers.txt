@@ -1,0 +1,28 @@
+
+TPS Activity 1
+1. https://vitux.com/how-to-use-gdb-to-debug-programs-in-ubuntu/#google_vignette
+2. https://www.howtogeek.com/devops/debugging-with-gdb-getting-started/
+3. https://installati.one/install-gdb-ubuntu-20-04/
+
+TPS Activity 2
+1. You compile like normal "gcc -o punishment punishment.c" and then "./punishment" and then the code will execute.
+2. To debug the code it is"gdb punishment" 
+3. To run the debugger it is "run"
+4. Breakpoints is a point where you can have the program stop from running. To set the break point to a certain line 
+   you can use "break (line number)".
+5. To run through the next line of code after the breakpoint you can use "gdb next"
+6. To watch a variable you can enter watch and then the variable or to print it you can enter print and then variable name
+7. To finish executing the program, continue can be used, or c for short.
+8. To exit gdb you can enter quit or q.
+
+Other notes: Backtrace is useful for segmentation fault
+
+TPS Activity 3
+1. 4 variables are delcared 2 of them being pointers, px and py.
+2. I think that is is going to print garbage values. I think this is because the varibles are not initialized.
+3. The way you fix them is by initializing them to 0.
+4. Done
+5. Done.
+6. Done.
+7. Done, they print the same address
+8. Done. This does make sense.

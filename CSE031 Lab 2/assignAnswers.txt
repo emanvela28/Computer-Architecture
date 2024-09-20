@@ -1,0 +1,15 @@
+
+Individual activity 1
+1. Line 25 causes the segmentation fault
+2. In the scanf function, it is important to derefernce the input variable like so &input.
+3. The bug here is that we are not updating the sum varibale after the unput.
+4. To fix it, we must declare sum as a pointer in the read values function, and then pass sum by reference on line 33.
+
+Individual assignment 2 appendTest.c
+1. The output is not expected. It should reprint the inputs as provided, however, for "hello!" it prints "hello!llo!"
+2. The output is not expected again. The bug seems to be in the for loop where k is not iterating through both strings, only str2.
+   This would mean that the string is not being displayed properly.
+3. The output is not expected here either. This is because in main, char str1 and char str2 are declared with a size of 10 and  
+   the size of the tring we are trying to input is bigger than 10 characters.
+
+Individual assignment 3 complete arrcopy.c 

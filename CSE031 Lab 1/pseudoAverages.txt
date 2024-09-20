@@ -1,0 +1,20 @@
+initialize variables for current value, sumofeven, sumofodd, evenaverage, oddaverage, evencounter, oddcounter, totalcounter
+
+set totalcounter equal to 1
+
+ask user for integer value and save as current value
+while current values does not equal 0
+    if sum of digits of current val % 2 = 0
+        add current value to sumofeven
+        add 1 to even counter
+    else
+        add current value to sumofodd
+        add 1 to odd counter
+    add 1 to total counter
+    ask user for integer value and save as current value
+
+evenaverage is equal to sumofeven / evencounter
+oddaverage is equal to sumofodd / oddcounter
+
+print evenaverage
+print oddaverage

@@ -1,0 +1,31 @@
+tpsAnswers
+
+TPS 1
+Arshdeep 
+Ajay
+https://www.geeksforgeeks.org/introduction-to-linux-operating-system/
+https://www.howtogeek.com/140679/beginner-geek-how-to-start-using-the-linux-terminal/
+https://www.freecodecamp.org/news/command-line-for-beginners/
+
+
+TPS 2
+1. On windows you can open the terminal through Taskbar and Ubuntu. You can open more than one terminal at the same time, 
+   which is useful when working on more than one project or for other folder.
+2. You can use the ls command
+3. The desktop directory can be accessed through the cd command
+4. Mkir CSE31
+
+TPS 3
+1. https://www.geeksforgeeks.org/gcc-command-in-linux-with-examples/
+   https://www.ubuntupit.com/how-to-install-and-use-gcc-compiler-on-linux-system/
+2. Done
+3. gcc -o app filename.c and then ./app to run
+4. If there are no errors in the terminal and the terminal waits for the next command to run the code, then it compiled successfully
+5. It gets the gcc to compile source file to -o file.
+6. Generates denugg information into an executeable file
+7. Use the mv command: mv main.c cselab1
+8. It creates an outfile or an executeable file and gets ran by the preproccessor
+9. use ./app to run the program
+
+TPS 4
+1. Answers recorded in pseudoAverages

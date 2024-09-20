@@ -1,0 +1,32 @@
+
+TPS Activity 1
+1. MIPS Assembler and Runtime Simulator
+2. Done
+3. Done
+4. Done
+5a. Through the top left of the window, use file > open.
+5b. To assemble the program, click the Run tab on the top, and then assemble. You can also assemble using the screwdriver icon.
+5c. To run the code, click the green play buutton next to the screwdriver icon.
+5d. No, you cannot run a program before assembly.
+5e. To run one step at a time, you would use the button next to run. It is a green play button with a subscript 1. This allows
+    you to step through the program.
+5f. In order to run through the code again, you would need to reset it using the green button with the reverse icon. Then from here
+    you can run as normal.
+
+TPS Activity 2
+1. Data initializes constants or data that wont change at runtime. Word is used to declare a word that is of a fixed size. Text 
+   moves any next items into the text file.
+2. Line 10 compares registers $t3 and $t0, if they are equal, the program will jump to finish. Then it will execute finish.
+3. Line 15 jumps to the fib function, in other words, it loops.
+4. To set a breakpoint, assemble the code, and then check any box on the left under the execute file section (Bkpy) where you want 
+   the breakpoint to be set.
+5. To execute the code, click the greenplay button at the top, then to step through code, click the green play button with a 
+   subscript 1.
+6. To find the content of a register look to the right side of the screen where the registers section is. To change a value
+   double click on the register that you want to edit and then make the changes.
+7. 
+8. Syscall is short for system call which is the request that comes from the instruction to the operating system. To use Syscall
+   you have to set the service call (for example print a certain integer). Then arguments need to be passed and results need to be
+   stored. A syscall would look like this: li $t0, 1
+                                           li $a0, 10
+                                           syscall

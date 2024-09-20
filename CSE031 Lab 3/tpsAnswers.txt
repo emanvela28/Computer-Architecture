@@ -1,0 +1,21 @@
+
+TPS Activity 1
+1. The 3 pools for memory are: Stack, heap, static.
+   The variables that are stored in each are: Local, dynamic, global 
+2. 3 are declared. 
+   b. There are 2 pointers declared, where both are type int. 
+   c. These are declared in Stack.
+   d. This would point to the Heap.
+3. Done
+4. Done
+
+TPS Activity 2
+1. The code is going to create a linked list and assign a value to the head which is going to serve at the beginning of
+   the linked list.
+2. Done.
+3. Based on the address of the head and then the next node, it seems as though these are almost stored the same as an array or list.
+
+array.c Answers
+1a. We need to pass the size of the array through so that the function knows when to stop iterarting through the list.
+1b. No it is not, the sorting is done on the s_arr array which can be seen on line 12.
+1c. Because the original array is compared to the sorted array in main.

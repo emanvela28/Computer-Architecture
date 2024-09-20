@@ -1,0 +1,29 @@
+
+
+TPS Activity 1
+1. A procedure is reusable and callable that does not return a value. A function is similar to a procedure but a functino returns 
+   a value. A method is similar to a function but is associated with an object, making it a characteristic of object-oriented 
+   programming languages.
+2. Done
+3. Done
+4. This is on line 20
+5. Using jr $ra is necessary because it allows for dynamic behavior
+6. This is happening on line 11. The ra is set to 0. It returns through ra. It does not make sense because it would lead to a
+   segmentation fault.
+7. An error is given
+8. After sum is run you want to return to line 14, then set the return point to the return address of line 14
+9. You have to change the ra from line eleven from zero. When reassembling. It returns 28 but before it was 20.
+10. The new return address is 
+11. Jal can be used which is jump and link
+12. Done
+
+TPS Activity 2
+1. I think that the output will be 38. My answer is right
+2. The MIPS version does the same thing as the c version
+3. When main calls SUM the return address is saved in $ra by jal which tells SUM to return. If sum calls SUB without saving
+   $ra then the original return adress would be lost.
+4. The issue with line 27 is that $a0 is overwritten with the SUB call. To resolve this, the value can be saved on the stack
+   and then restored after the sub call.
+5. Line 24 overwrites $s0 with m which was used to hold x from main. This could lead to data loss for calculations that we need 
+   later. Fixing this saves the original value before it is overwritten.
+6. Done

@@ -1,0 +1,36 @@
+
+TPS Partners: Ellis Hampton, Deb Ray, Ethan Tsai, Julia Wu, Emmanuel Velazquez
+
+
+TPS Activity 1
+1. text: 0x00400000
+   data: 0x10010000
+2. Basic is languge that is easily converted to machine code. Source code is the code that we write.
+3. There is a four byte difference
+4. There are 16 columns
+5. Because there are 16 columns in hex, there is a 32 bit difference.
+6. .data
+   m: .word 20
+   .text
+   lw $t0, m
+7. 268500996
+8. str1: .asciiz "I love CSE31!"
+9. Stored here: 0x01001000 with these 3 values: 825443667, 1126196598, 1869357129
+10. All computers use little endian and the data is stored in little endian format which prompts the computer to read from left to right.
+11. Use Li to print
+    li $v0, 4
+    la $a0, str1
+    syscall
+12. a $t3, n loads the address of n in the $t3 register. The value of $t3 will be the value in the address of n.
+
+
+TPS Activity 2
+1. Because it is redundant
+2. n: .word 25
+3. Done
+4. li $v0, 5 
+5. Slt $t0, $sl, $s0
+   Bne $t0, $zero, LESS
+6. Beq $t0, $zero, GREQ
+7. Done
+8. Beq $t0, $rero, LEEQ 
